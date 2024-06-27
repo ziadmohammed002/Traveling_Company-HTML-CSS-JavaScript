@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.header-container {
+    background: url(img_2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-left ,.nav-right {
+    margin: 30px;
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.nav-links {
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.nav-links:hover {
+    color: #000000;
+}
+
+em {
+    color: aqua;
+    font-size: 40px;
+}
+
+.traveler-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.header-container h1 {
+    position: relative;
+    text-align: center;
+    top: 250px;
+    color: rgb(0, 0, 0);
+    font-size: 59px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: "Lato", Arial, sans-serif;
+}
+
+.prices h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.prices .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.prices .card {
+    border: solid;
+    margin-right: 50px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding: 30px;
+    text-align: center;
+}
+
+.card h3 {
+    color: crimson;
+    font-size: 30px;
+}
+
+.card p {
+    color: black;
+    font-size: 35px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li {
+    font-size: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    padding: 15px;
+}
+
+.explorer-ul li{
+    margin: 50px 0;
+}
+
+.voyager-ul li {
+    margin: 50px 0;
+}
+
+.card button {
+    padding: 20px 30px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid  #ccc;
+    border-radius: 99999px;
+    transition: 0.5s;
+}
+
+.card button:hover {
+    background-color: #09C6AB;
+    cursor: pointer;
+}
+
+.card .explorer-btn {
+    position: relative;
+    top: 140px;
+}
+
+.card .adventurer-btn {
+    position: relative;
+    top: 80px;
+}
+
+.card .voyager-btn {
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    background-color: white;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-column {
+    width: 25%;
+    float: left;
+    padding: 0 20px;
+}
+
+.footer-column h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    color: #09C6AB;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    color: #09C6AB;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #09C6AB;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
